@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "miniproject/wsgi.py",
+        "src": "sheryianscoding/wsgi.py",
         "use": "@vercel/python",
         "config": {
           "maxLambdaSize": "15mb",
@@ -20,7 +20,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "miniproject/wsgi.py"  
+        "dest": "sheryianscoding/wsgi.py"  
       }
     ],
     "outputDirectory": "static"
